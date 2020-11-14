@@ -7,21 +7,7 @@
   </div>
 
   <div class = "main_chat">
-    <div class = "message">
-      <div class = "user_box">
-        <div class = "user_name">Tom</div>
-        <div class = "time_day">2020/3/31(wed) 12:43:30</div>
-      </div>
-      <div class = "post_message">おはよう</div>
-    </div>
-
-    <div class = "message">
-      <div class = "user_box">
-        <div class = "user_name">Tom</div>
-        <div class = "time_day">2020/3/31(wed) 12:43:30</div>
-      </div>
-      <div class = "post_message">こんにちは</div>
-    </div>
+    <%= render partial: 'message', collection: @messages %>
   </div>
   
  
