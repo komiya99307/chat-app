@@ -123,9 +123,14 @@ color: white;
   padding: 20px 40px;
 }
 
+.form{
+  display: flex;
+}
+
 .contact-form{
   width: 100%;
   display: flex;
+  background-color: white;
 }
 
 .message_form{
@@ -144,6 +149,7 @@ color: white;
   height: 50px;
   padding: 0 20px;
   border: none;
+  margin-left: 15px;
 }
 
 .image-form{
